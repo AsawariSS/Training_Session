@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: maroon;
+  margin-left: 40px;
+}
+*{
+  box-sizing:border-box;
+}
+div{
+ height:200px;
+ width:200px;
+ border:2px solid blue;
+ background-color:pink;
+ margin:10px 200px;
+ padding-top:30px;
+ 
+}
+.divclass{
+ background-color:yellow;
+}
+.divclass.otherclass{
+background-color:green;
+}
+#special{
+background-color:purple;
+}
+</style>
+<meta charset="ISO-8859-1">
+<title>Demonstration of CSS</title>
+</head>
+<body>
+<h1>This is a heading using internal Css</h1>
+<p>This is a paragraph.</p>
+<h1 style="color:blue;text-align:center;">This is a heading using inline css</h1>
+<div>
+<h1><centre>Box 1</centre></h1>
+</div>
+<div class="divclass">
+<h1><centre>Box 2</centre></h1>
+</div>
+<div id="special"class="divclass">
+<h1><centre>Box 3</centre></h1>
+</div>
+<div class="divclass otherclass">
+<h1><centre>Box 4</centre></h1>
+</div>
+<div class="divclass">
+<h1><centre>Box 5</centre></h1>
+</div>
+</body>
+</html>
