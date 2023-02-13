@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Factorial in Javascript </title>
+</head>
+<body>
+<script>
+const number = parseInt(prompt('Enter a positive integer: '));
+if (number < 0)
+{
+ document.write('Error! Factorial for negative number does not exist.');
+}
+else if (number === 0) 
+{
+ document.write(`The factorial of ${number} is 1.`);
+}
+else 
+{
+ let fact = 1;
+ for (i = 1; i <= number; i++)
+ {
+     fact *= i;
+ }
+ document.write(`The factorial of ${number} is ${fact}.`);
+}
+</script>
+</body>
+</html>
