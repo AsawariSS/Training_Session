@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<script>
+var colours=["red","orange","yellow"];
+var printList= function(list)
+{
+	for(var i=0; i<list.length;i++)
+		{
+		 document.write(list[i]);
+		 document.write("<br>");
+		};
+};
+printList(colours);
+
+var returnedValue = printList(colours);
+document.write(returnedValue);
+
+var cars =["subaru","tesla","jeep"];
+var concatListFunc = function(list1, list2)
+{
+	return list1.concat(list2);
+	}
+document.write(printList(colours, cars));
+</script>
+
+</body>
+</html>
