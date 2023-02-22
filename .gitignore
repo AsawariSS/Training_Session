@@ -1,1 +1,9 @@
 /.metadata/
+.settings
+.classpath
+.project
+*.class
+.testing
+.metadata
+.bin
+.class
