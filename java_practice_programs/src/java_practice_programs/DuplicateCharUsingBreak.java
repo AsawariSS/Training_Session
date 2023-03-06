@@ -1,5 +1,4 @@
 package java_practice_programs;
-import java.util.Scanner;
 
 public class DuplicateCharUsingBreak {
 
@@ -17,5 +16,4 @@ public class DuplicateCharUsingBreak {
 			}
 		}
 	}
-
 }

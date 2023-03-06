@@ -28,10 +28,6 @@ public class DuplicatecharacterUsingHashmap {
 
 				System.out.println(ch);
 			}
-			// else if(charMap.get(ch)<0)
-			// {
-			// System.out.println("No Duplicate Characters in given String");
-			// }
 
 		}
 
