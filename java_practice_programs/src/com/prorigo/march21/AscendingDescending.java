@@ -6,7 +6,7 @@ public class AscendingDescending {
 
 	public static void main(String[] args) {
 		String[] name = { "Asawari", "Vaisnavi", "Sourav", "Hrishikesh", "Yogini" };
-		//System.out.print("Original List:" + name);
+		// System.out.print("Original List:" + name);
 		System.out.println("Original List:" + Arrays.toString(name));
 		int size = name.length;
 		for (int i = 0; i < size - 1; i++) {
