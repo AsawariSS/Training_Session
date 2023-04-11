@@ -9,9 +9,9 @@ import java.nio.file.StandardCopyOption;
 public class FileIntegration {
 
 	public static void main(String[] args) {
-		String folder1 = "D:\\Integration Demo\\Java";
-		String folder2 = "D:\\Integration Demo";
-		String integratedfolder = "D:\\Programming Languages";
+		String folder1 = "D:\\Integration Demo\\Java\\";
+		String folder2 = "D:\\";
+		String integratedfolder = "D:\\Programming Languages\\";
 		File destDir = new File(integratedfolder);
 		if (!destDir.exists()) {
 			destDir.mkdirs();
